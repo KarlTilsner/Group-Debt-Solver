@@ -1,0 +1,7 @@
+.add {
+    background-color: var(--Tertiary);
+}
+
+.add:hover {
+    background-color: var(--Blue);
+}

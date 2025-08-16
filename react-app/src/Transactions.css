@@ -1,0 +1,35 @@
+.transactionAdderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.transactionAdder {
+    display: flex;
+    gap: 1rem;
+}
+
+.peopleSharingContainer {
+    margin-bottom: 1rem;
+}
+
+.peopleSharingButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.transactionListItem {
+    display: grid;
+    grid-template-columns: 10rem 1fr 5rem;
+}
+
+.listedTransactionSharing {
+    width: 75%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.active-btn {
+  background-color: var(--Blue)
+}
