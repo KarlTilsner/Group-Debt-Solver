@@ -6,6 +6,7 @@ import AddPerson from './AddPerson';
 import LogPeople from './LogPeople';
 import ListOfPeople from './ListOfPeople';
 import Transactions from './transactions';
+import DebtSolution from './DebtSolution';
 
 function Root() {
     const [people, setPeople] = useState({});
@@ -24,11 +25,12 @@ function Root() {
                 </div>
 
                 <div className='content_block'>
-                    <Transactions transactions={transactions} setTransactions={setTransactions} people={people} setPeople={setPeople}/>
+                    <Transactions transactions={transactions} setTransactions={setTransactions} people={people} setPeople={setPeople} />
                 </div>
 
                 <div className='content_block'>
                     <ListOfPeople people={people} setPeople={setPeople} />
+                    <DebtSolution people={people} />
                 </div>
 
             </div>
